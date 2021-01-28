@@ -14503,7 +14503,7 @@ pub mod root {
 				}
 				extern "C" {
 					#[link_name = "\u{1}_ZN3app8lua_bind36FighterInformation__stock_count_implEPNS_18FighterInformationE"]
-					pub fn stock_count(arg1: *mut root::app::FighterInformation) -> u64;
+					pub fn stock_count(arg1: *mut root::app::FighterInformation) -> i32;
 				}
 				extern "C" {
 					#[link_name = "\u{1}_ZN3app8lua_bind38FighterInformation__suicide_count_implEPNS_18FighterInformationEi"]
