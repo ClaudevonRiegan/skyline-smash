@@ -6108,7 +6108,7 @@ pub mod root {
 						arg3: bool,
 						arg4: f32,
 						arg5: bool,
-					) -> u64;
+					) -> f32;
 				}
 				extern "C" {
 					#[link_name = "\u{1}_ZN3app8lua_bind24AttackModule__group_implEPNS_26BattleObjectModuleAccessorEi"]
